@@ -1,0 +1,15 @@
+comopser create
+
+work in the .env file
+php artisan make:model Player -m  (m: migration and f : factory)
+
+For dealing with php apis
+php artisan install:api
+
+docker compse up -d db
+
+docker compose build
+docker compose up --build laravelapp
+docker compose up --build db
+
+docker exec laravelapp php artisan migrate
